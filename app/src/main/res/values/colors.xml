@@ -11,4 +11,10 @@
     <color name="basePressColor">#FAFAFA</color>
     <color name="ballReleaseColor">#212121</color>
     <color name="dividerColor">#1F000000</color>
+
+
+    <!--Home-->
+    <color name="backgroundColor">#d8000000</color>
+    <color name="gray">#4f4a43</color>
+    <color name="orange">#f9a00f</color>
 </resources>

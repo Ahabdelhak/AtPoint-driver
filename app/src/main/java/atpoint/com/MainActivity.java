@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onSuccess(AuthResult authResult) {
                                 waitingdialog.dismiss();
-                                startActivity(new Intent(MainActivity.this, Emergency.class));
+                                startActivity(new Intent(MainActivity.this, Home.class));
                                 finish();
                             }
                         }).addOnFailureListener(new OnFailureListener() {
@@ -188,7 +188,7 @@ public class MainActivity extends AppCompatActivity {
                                                 @Override
                                                 public void onSuccess(Void aVoid) {
                                                     waitingdialog.dismiss();
-                                                    startActivity(new Intent(MainActivity.this,Emergency.class));
+                                                    startActivity(new Intent(MainActivity.this,Home.class));
                                                     finish();
                                                 }
                                             }).addOnFailureListener(new OnFailureListener() {
