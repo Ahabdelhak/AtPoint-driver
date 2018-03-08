@@ -19,7 +19,7 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
        // bookingCard.setOnClickListener(this);
         emergencyCard.setOnClickListener(this);
     }
-
+//
     @Override
     public void onClick(View view) {
         Intent i;
